@@ -6,7 +6,7 @@ const countCharacters = (inputString) => {
   const characterCount = {
     letters: 0,
     symbols: 0,
-    numeric: 0
+    numeric: 0,
   };
 
   for (let i = 0; i < inputString.length; i++) {
